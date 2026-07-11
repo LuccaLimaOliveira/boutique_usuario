@@ -9,7 +9,6 @@ public class BoutiqueusuarioApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BoutiqueusuarioApplication.class, args);
 
-		System.out.println("Hello world");
 	}
 
 }
