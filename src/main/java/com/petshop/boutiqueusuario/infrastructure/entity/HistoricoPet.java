@@ -15,7 +15,6 @@ public class HistoricoPet {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Id
 
     @Column(name = "descricao", length = 100)
     private String descricao;
