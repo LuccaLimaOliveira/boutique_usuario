@@ -17,6 +17,7 @@ public class UsuarioDTO {
     private String cpf;
     private String email;
     private String senha;
-    private List<Endereco> enderecos;
-    private List<Telefone> telefones;
+
+    private List<EnderecoDTO> enderecos;
+    private List<TelefoneDTO> telefones;
 }
